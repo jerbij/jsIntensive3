@@ -18,8 +18,5 @@ Array.prototype.myFilter = function( testLogic, srcArr, thisParam ) {
     return result;
 }
 
-const numbers = [ 5, 8, 1, 2, 9];
-const chosenNumbers = numbers.myFilter( (num) =>  num  < 5);
-console.log(chosenNumbers);
 
 
